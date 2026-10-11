@@ -1,0 +1,20 @@
+[package]
+name = "pyth_mock"
+version = "0.1.0"
+description = "Devnet helper: writable legacy Pyth price account layout for AuFlow tests"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "pyth_mock"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+anchor-lang = "0.31.1"
