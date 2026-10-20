@@ -27,8 +27,6 @@ This repository is the **Turbin3 capstone** deliverable: on-chain program, devne
 
 The **Pyth mock** program exists only so devnet tests can update a legacy-format price account (Solana does not allow arbitrary account data writes without a program). Production integrations would use live Pyth push feeds on mainnet/devnet.
 
----
-
 ## What the protocol does (demo narrative)
 
 1. **Initialize** — Admin sets global risk parameters (max LTV, liquidation threshold, bonus) and designates an **auditor** for reserve attestations.
@@ -43,7 +41,8 @@ Default risk parameters (basis points, 10_000 = 100%):
 - Liquidation threshold: **85%**
 - Liquidation bonus: **5%**
 
----
+## Individual Reflection for the Capstone
+ - https://drive.google.com/file/d/1Mh_EVw9FJVHOX3RBb0qwI3PtvS8RpEkQ/view?usp=sharing
 
 ## Architecture
 
